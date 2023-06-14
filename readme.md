@@ -22,6 +22,14 @@ I thought of documenting this project incase someone may need to implement simil
     - For Directory API (used in `get_user_photo.py`): `https://www.googleapis.com/auth/admin.directory.user.readonly`
     - For People API (used in `get_user_photo_people.py`): `https://www.googleapis.com/auth/userinfo.profile`
 
+## Installing Required Libraries
+
+Before running the Python scripts, you need to install the required libraries. Run the following command in your terminal:
+
+```
+pip install --upgrade google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client
+```
+
 ## Scripts
 
 ### `get_user_photo.py` (Using Directory API)
